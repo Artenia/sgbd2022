@@ -22,8 +22,8 @@ class AnimalController extends Controller {
         return $this->list_xhr();
     }
 
-    public function destroy ($id) {
-        $animal = Animal::find($id);
+    public function destroy ($data) {
+        $animal = Animal::find($data['id']);
         if (!$animal) {
             return false;
         }

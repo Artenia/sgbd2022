@@ -1,7 +1,7 @@
 
 <!-- Petite partie de vue (div) qui s'occupe d'afficher la liste des propriétaires -->
 
-<input type="hidden" id="entity" value="proprietaire">
+<input type="hidden" id="entity" value="proprietaires">
 <table>
     <tr id="0">
         <th>Nom</th>

@@ -1,8 +1,8 @@
 <body>
 <ul>
     <li><a href="/proprietaires">Proprietaires</a></li>
-    <li><a href="/animal">Animaux</a></li>
-    <li><a href="/sejour">Séjours</a></li>
+    <li><a href="/animaux">Animaux</a></li>
+    <li><a href="/sejours">Séjours</a></li>
     <li><a href="/behavior">(Behaviors)</a></li>
 </ul>
 

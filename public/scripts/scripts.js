@@ -106,7 +106,7 @@ $(document).ready(function(){
             fin:document.getElementById("fin").value
         }
         //on effectue la requete POST en lui passant l'objet
-        $.post('/sejour/store/',data).done(function(result) {
+        $.post('/sejours/store/',data).done(function(result) {
             //on update le div.update (list_xhr)
             $('div.update').html(result);
             //on vide le formulaire d'ajout après l'envoi des données

@@ -1,7 +1,7 @@
 
 <!-- Petite partie de vue (div) qui s'occupe d'afficher la liste des propriétaires -->
 
-<input type="hidden" id="entity" value="animal">
+<input type="hidden" id="entity" value="animaux">
 <table>
     <tr>
         <td>Nom</td>

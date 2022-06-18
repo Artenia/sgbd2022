@@ -28,7 +28,7 @@
         <br>
         <div class="proprioLabel">
             <label for="adresse">Adresse : </label>
-            <input id="adresse" name="adresse" type="text" style="width: 313px;" placeholder="Adresse du propriétaire" pattern="[A-Za-z0-9'\.\-\s]+" title="Ne doit comprendre que des caractères alphanumériques, des espaces et certains symboles ( . - ' ) ! Exemple : ''Rue St.-L'homme 45''" required>
+            <input id="adresse" name="adresse" type="text" style="width: 313px;" placeholder="Adresse du propriétaire" pattern="[A-Za-zÀ-ÿ0-9\s\-\.]+" title="Ne doit comprendre que des caractères alphanumériques, des espaces et certains symboles ( . - ) ! Exemple : ''Rue St.Dion-Valmont 45''" required>
         </div>
         <br>
         <div class="proprioLabel">
@@ -80,7 +80,7 @@
         <br>
         <div class="proprioLabel">
             <label for="adresse">Adresse : </label>
-            <input id="uadresse" name="adresse" type="text" style="width: 313px;" pattern="[A-Za-z0-9'\.\-\s]+" title="Ne doit comprendre que des caractères alphanumériques, des espaces et certains symboles ( . - ' ) ! Exemple : ''Rue St.-L'homme 45''" required>
+            <input id="uadresse" name="adresse" type="text" style="width: 313px;" pattern="[A-Za-zÀ-ÿ0-9\s\-\.]+" title="Ne doit comprendre que des caractères alphanumériques, des espaces et certains symboles ( . - ) ! Exemple : ''Rue St.Dion-Valmont 45''" required>
         </div>
         <br>
         <div class="proprioLabel">

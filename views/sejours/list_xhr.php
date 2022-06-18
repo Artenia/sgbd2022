@@ -1,7 +1,7 @@
 
 <!-- Petite partie de vue (div) qui s'occupe d'afficher la liste des propriétaires -->
 
-<input type="hidden" id="entity" value="sejour">
+<input type="hidden" id="entity" value="sejours">
 <table>
     <tr>
         <td>N° de séjour</td>

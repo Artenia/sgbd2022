@@ -14,8 +14,8 @@ class SejourController extends Controller {
         return $this->list_xhr();
     }
 
-    public function destroy ($id) {
-        $sejour = Sejour::find($id);
+    public function destroy ($data) {
+        $sejour = Sejour::find($data['id']);
         if (!$sejour) {
             return false;
         }

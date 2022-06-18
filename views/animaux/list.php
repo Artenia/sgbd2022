@@ -37,12 +37,12 @@
         <br>
         <div class="animalLabel">
             <label for="dn">Date de naissance : </label>
-            <input id="dn" name="dn" type="date" style="width: 172px;" min="1990-01-01" max="2022-01-01" title="Date minimum : ''01/01/1990'' → Date maximum : ''01/01/2022''" required>
+            <input id="dn" name="dn" type="date" style="width: 172px;" min="2000-01-01" max="2022-01-01" title="Date minimum : ''01/01/2000'' → Date maximum : ''01/01/2022''" required>
         </div>
         <br>
         <div class="animalLabel">
             <label for="chaleur">Date de dernière chaleur : </label>
-            <input id="chaleur" name="chaleur" type="date" style="width: 130px;" min="1990-01-01" max="2022-01-01" title="Date minimum : ''01/01/1990'' → Date maximum : ''01/01/2022''" required>
+            <input id="chaleur" name="chaleur" type="date" style="width: 130px;" min="2000-01-01" max="2022-01-01" title="Date minimum : ''01/01/2000'' → Date maximum : ''01/01/2022''" required>
         </div>
         <br>
         <div class="animalLabel">
@@ -99,12 +99,12 @@
         <br>
         <div class="animalLabel">
             <label for="dn">Date de naissance : </label>
-            <input id="udn" name="dn" type="date" style="width: 172px;" min="1990-01-01" max="2022-01-01" title="Date minimum : ''01/01/1990'' → Date maximum : ''01/01/2022''" required>
+            <input id="udn" name="dn" type="date" style="width: 172px;" min="2000-01-01" max="2022-01-01" title="Date minimum : ''01/01/2000'' → Date maximum : ''01/01/2022''" required>
         </div>
         <br>
         <div class="animalLabel">
             <label for="chaleur">Date de dernière chaleur : </label>
-            <input id="uchaleur" name="chaleur" type="date" style="width: 130px;" min="1990-01-01" max="2022-01-01" title="Date minimum : ''01/01/1990'' → Date maximum : ''01/01/2022''" required>
+            <input id="uchaleur" name="chaleur" type="date" style="width: 130px;" min="2000-01-01" max="2022-01-01" title="Date minimum : ''01/01/2000'' → Date maximum : ''01/01/2022''" required>
         </div>
         <br>
         <div class="animalLabel">
@@ -127,7 +127,7 @@
             </select>
         </div>
         <br>
-        <button type="submit" class="update">Modifier cet animal</button>
+        <button type="submit" class="upd">Modifier cet animal</button>
     </form>
 </div>
 <h3>Liste des animaux</h3>
